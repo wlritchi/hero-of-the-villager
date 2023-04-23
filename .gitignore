@@ -6,6 +6,7 @@
 #IntelliJ IDEA folders
 .idea/
 .out/
+*.iml
 # BlueJ files
 *.ctxt
 
@@ -25,7 +26,6 @@
 hs_err_pid*
 
 # Maven Files #
-pom.xml
 target/
 
 # VS Code Files #
