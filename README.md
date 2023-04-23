@@ -1,16 +1,23 @@
-# VillagerSaver
- Minecraft plugin for Spigot
- 
-Resource on Spigot Website: https://www.spigotmc.org/resources/villager-saver-1-17-1.84738/
- 
-Prevents the death of villagers from zombies. They will be always converted to zombie villagers so, worst case scenario the player can just heal them.
-It preserves trades, homes, job location and updates reputation.
+# Hero of the Villager
+
+A Minecraft plugin for Spigot servers to prevent zombies killing villagers.
+
+When a zombie would kill a villager, the villager is instead converted to a
+zombie villager, with its trades, homes, job location, and reputation preserved.
+On Hard difficulty, this is equivalent to the default behaviour. However, on
+other difficulties, the vanilla game only zombifies villagers some of the time;
+this plugin ensures villagers are always zombified, so you can simply heal them.
 
 ## Changelog
 
+### 2.0.0
+
+Forked from [VillagerSaver](https://github.com/MarioFinale/VillagerSaver), revamped build
+- Revamped build
+
 ### 1.3.2
 - Plugin now checks on death events for improved performance (fewer function calls)
-- Plugin now uses the *zombify* function (Should fix [#18](https://github.com/MarioFinale/VillagerSaver/issues/18)) 
+- Plugin now uses the *zombify* function (Should fix [#18](https://github.com/MarioFinale/VillagerSaver/issues/18))
 - Improved readability
 
 ### 1.3.1
@@ -65,5 +72,9 @@ The blacklist is saved on /plugins/VillagerSaver/WorldBlackList.yml I do not rec
 
 
 
+## Support
+
+The maintainers of this fork are not currently accepting donations, but you can
+support the author of the original version here:
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W52TMLM)

@@ -1,4 +1,4 @@
-package cl.mariofinale;
+package com.wlritchi.heroofthevillager;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -17,7 +17,6 @@ public class VillagerSaver extends JavaPlugin {
     @Override
     public void onEnable() {
         plugin = this;
-        LogWarn("Make sure you downloaded a trusted version of this plugin on: https://github.com/MarioFinale/VillagerSaver/releases");
         LogInfo("Registering listener.");
         getServer().getPluginManager().registerEvents(new VillagerSaver_Listener(), this);
         LogInfo("Listener registered.");

@@ -1,4 +1,4 @@
-package cl.mariofinale;
+package com.wlritchi.heroofthevillager;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.EntityType;
 import java.util.ArrayList;

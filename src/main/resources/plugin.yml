@@ -1,0 +1,10 @@
+name: HeroOfTheVillager
+version: 2.0.0
+authors: [Luc Ritchie, MarioFinale, Kasama, Kyle Hunady]
+main: com.wlritchi.heroofthevillager.VillagerSaver
+api-version: 1.19
+website: https://github.com/wlritchi/hero-of-the-villager
+commands:
+  villagersaver:
+    description: VillagerSaver commands.
+    usage: /villagersaver <blacklistworld - unblacklistworld>
